@@ -1,13 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
-
+// import { Link } from "react-router-dom";
+import Navbar from "../components/home/Navbar";
+import HeroSection from "../components/home/HeroSection";
+import ExampleImage from "../components/home/EaxampleImage";
+import Steps from "../components/home/Steps";
 const Home = () => {
   return (
-    <main>
+    <main className="bg-gradient-to-b from-[#F2FFF9] to-[#FFF6F1] min-h-screen">
       <Navbar />
-      <h1>Home</h1>
-      <Link to="/buy-credit">Buy Credit</Link>
+      <HeroSection />
+      <ExampleImage />
+      <Steps />
     </main>
   );
 };
