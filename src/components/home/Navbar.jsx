@@ -16,7 +16,7 @@ const Navbar = (props) => {
         </div>
       </Link>
       <div className="flex flex-col sm:flex-row gap-6 items-center sm:gap-10">
-        <Link to="/buy-credit">
+        <Link to="/pricing">
           <button>Pricing</button>
         </Link>
         {isLogin ? (

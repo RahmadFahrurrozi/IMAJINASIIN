@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import BuyCredit from "../pages/BuyCredit";
 import Result from "../pages/Result";
+import Pricing from "../pages/Pricing";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/result",
     element: <Result />,
+  },
+  {
+    path: "/pricing",
+    element: <Pricing />,
   },
 ]);
 
